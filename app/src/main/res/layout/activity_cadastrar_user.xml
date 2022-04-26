@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cadastrar_User">
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="433dp"
+        android:layout_height="184dp"
+        android:background="@drawable/gradient"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/TxtTile1"
+        android:layout_width="350dp"
+        android:layout_height="63dp"
+        android:fontFamily="@font/open_sans_medium"
+        android:gravity="center"
+        android:text="Criar nova conta"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.089"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/TxtTile2"
+        android:layout_width="379dp"
+        android:layout_height="78dp"
+        android:clickable="true"
+        android:fontFamily="@font/open_sans_medium"
+        android:gravity="center"
+        android:text="Já é cadastrado? Faça o login aqui"
+        android:textColor="@color/white"
+        android:textColorLink="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.148"
+        tools:ignore="HardcodedText" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="184dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="a"
+            android:orientation="vertical"
+            tools:ignore="HardcodedText">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                tools:ignore="UselessLeaf">
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TxtNome"
+                android:layout_width="178dp"
+                android:layout_height="38dp"
+                android:fontFamily="@font/open_sans_medium"
+                android:gravity="center"
+                android:text="INSIRA O SEU NOME"
+                android:textColor="@color/grey_text"
+                android:textSize="14sp"
+                tools:ignore="HardcodedText,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+            <EditText
+                android:id="@+id/EditName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edt_corner"
+                android:ems="1000"
+                android:hint="@string/digite_neste_campo"
+                android:inputType="textPersonName"
+                android:textColor="@color/black_text_user"
+                android:textSize="16sp"
+                tools:ignore="Autofill" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal"
+                tools:ignore="UselessLeaf">
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TxtPassword"
+                android:layout_width="179dp"
+                android:layout_height="38dp"
+                android:fontFamily="@font/open_sans_medium"
+                android:gravity="center"
+                android:text="INSIRA A SUA SENHA"
+                android:textColor="@color/grey_text"
+                android:textSize="14sp"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/EditPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edt_corner"
+                android:ems="1000"
+                android:hint="Digite neste campo..."
+                android:inputType="textPassword"
+                android:textColor="@color/black_text_user"
+                android:textSize="16sp"
+                tools:ignore="Autofill,HardcodedText,TextFields" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal"
+                tools:ignore="UselessLeaf">
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TxtEmail"
+                android:layout_width="177dp"
+                android:layout_height="38dp"
+                android:fontFamily="@font/open_sans_medium"
+                android:gravity="center"
+                android:text="INSIRA O SEU E-MAIL"
+                android:textColor="@color/grey_text"
+                android:textSize="14sp"
+                tools:ignore="HardcodedText" />
+
+
+            <EditText
+                android:id="@+id/EditEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edt_corner"
+                android:ems="1000"
+                android:hint="Ex.: mariadapenha@gmail.com"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/black_text_user"
+                android:textSize="16sp"
+                tools:ignore="Autofill,HardcodedText" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:orientation="horizontal"
+                tools:ignore="UselessLeaf">
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtEmail4"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:fontFamily="@font/open_sans_bold"
+                android:gravity="center"
+                android:text="Deseja ser usuária ou voluntária?"
+                android:textColor="@color/grey_text"
+                android:textSize="14sp"
+                tools:ignore="HardcodedText" />
+
+            <com.google.android.material.chip.ChipGroup
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+                <LinearLayout
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_user"
+                    android:layout_width="130dp"
+                    android:layout_height="60dp"
+                    android:backgroundTint="@color/background"
+                    android:fontFamily="@font/open_sans_bold"
+                    android:text="Usuária"
+                    android:textAlignment="center" />
+
+
+                <LinearLayout
+                    android:layout_width="18dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_voluntario"
+                    android:layout_width="130dp"
+                    android:layout_height="60dp"
+                    android:backgroundTint="@color/background"
+                    android:text="Voluntária"
+                    android:textAlignment="center" />
+
+                <LinearLayout
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+            </com.google.android.material.chip.ChipGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                tools:ignore="UselessLeaf">
+
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/CbTermosDeUso"
+                android:fontFamily="@font/open_sans_bold"
+                android:textColor="@color/grey_text"
+                android:textColorLink="@color/black_text_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Estou ciente e aceito os Termos de Uso da marca." />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal"
+                tools:ignore="UselessLeaf">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                tools:ignore="UselessLeaf">
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/btnCadastrar"
+                    android:layout_width="190dp"
+                    android:layout_height="60dp"
+                    android:backgroundTint="@color/purple_bottom"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Cadastre-se"
+                    android:textColor="@color/white"
+                    android:textSize="31px"
+                    app:cornerRadius="100px" />
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal"
+                tools:ignore="UselessLeaf">
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="view" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
