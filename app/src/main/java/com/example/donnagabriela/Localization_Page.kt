@@ -11,7 +11,7 @@ import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.LatLngBounds
 import com.google.android.gms.maps.model.MarkerOptions
 
-class Localization_Page : AppCompatActivity() {
+class   Localization_Page : AppCompatActivity() {
 
 
     data class Place(
