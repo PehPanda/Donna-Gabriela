@@ -44,16 +44,15 @@
 
             <TextView
                 android:id="@+id/textview_info_locate"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="153dp"
+                android:layout_marginHorizontal="30dp"
                 android:layout_marginTop="13dp"
                 android:fontFamily="@font/open_sans_medium"
-                android:textStyle="normal"
-                android:textSize="14sp"
+                android:text="@string/info_text_locate"
                 android:textColor="@color/grey_text"
-                android:layout_marginHorizontal="30dp"
-                android:layout_height="wrap_content"
-                android:text="@string/info_text_locate">
-            </TextView>
+                android:textSize="14sp"
+                android:textStyle="normal"></TextView>
 
         </LinearLayout>
 
@@ -75,23 +74,7 @@
             android:id="@+id/layout_locate_horizontal_scroll"
             android:layout_width="match_parent"
             android:layout_height="110dp"
-            android:orientation="horizontal">
-
-
-            <HorizontalScrollView
-                android:id="@+id/locate_horizontal_banner"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:scrollbars="none"
-                tools:ignore="SpeakableTextPresentCheck">
-
-                <Button
-                    android:id="@+id/button"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="Button" />
-            </HorizontalScrollView>
-        </LinearLayout>
+            android:orientation="horizontal"/>
 
         <LinearLayout
             android:id="@+id/layout_bottom_bar"
