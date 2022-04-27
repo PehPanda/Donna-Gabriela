@@ -72,11 +72,20 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/layout_locate_vertical_scroll"
+            android:id="@+id/layout_locate_horizontal_scroll"
             android:layout_width="match_parent"
             android:layout_height="110dp"
             android:orientation="horizontal">
 
+
+            <HorizontalScrollView
+                android:id="@+id/locate_horizontal_banner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none"
+                tools:ignore="SpeakableTextPresentCheck">
+
+            </HorizontalScrollView>
         </LinearLayout>
 
         <LinearLayout
