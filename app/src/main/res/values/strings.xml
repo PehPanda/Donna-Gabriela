@@ -13,4 +13,17 @@
     <string name="title_activity_localization_main">Localization_Main</string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="rating">Avaliação: %1$.1f</string>
+    <string name="info_title_locate">"Localize a ajuda mais próxima" \n "de você:"</string>
+    <string name="info_text_locate">
+
+        "◉ CAE - Centro de Acolhida para Mulheres em Situação de Violência"
+        \n
+        "◉ CDCM - Centro de Defesa e de Convivência da Mulher"
+        \n
+        "◉ CRAM - Centro de Referência de Atendimento à Mulher"
+        \n
+        "◉ DDM - Delegacia de Defesa da Mulher"
+
+
+        </string>
 </resources>
