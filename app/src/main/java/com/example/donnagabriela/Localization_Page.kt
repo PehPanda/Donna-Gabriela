@@ -1,9 +1,14 @@
 package com.example.donnagabriela
 
+import android.content.Context
 import android.os.Bundle
+import android.util.AttributeSet
+import android.view.View
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
+import co.tiagoaguiar.atway.ui.adapter.ATAdapter
+import co.tiagoaguiar.atway.ui.adapter.ATViewHolder
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.SupportMapFragment
@@ -13,7 +18,6 @@ import com.google.android.gms.maps.model.MarkerOptions
 
 class   Localization_Page : AppCompatActivity() {
 
-
     data class Place(
 
         val name: String,
@@ -21,6 +25,9 @@ class   Localization_Page : AppCompatActivity() {
         val address: String,
         val rating: Float
     )
+
+
+
     private val places = arrayListOf(
         Place("Google", LatLng(-23.5867982,-46.6843459), "Av. Brg. Faria Lima, 3477 - 18º Andar - Itaim Bibi, São Paulo - SP", 4.8f),
         Place("Microsoft", LatLng(-23.5924263,-46.6905388), "Avenida Presidente Juscelino Kubitscheck, 1909 Torre Sul, 16° andar - Vila Nova Conceição, São Paulo - SP", 4.9f),
@@ -74,6 +81,8 @@ class   Localization_Page : AppCompatActivity() {
             }
         }
     }
+
+
 
 }
 

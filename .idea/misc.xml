@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/PehPanda/App/AndroidStudioProject/repos/Donna_Gabriela/app/src/main/res/layout/activity_localization_page.xml" value="0.22" />
+        <entry key="..\:/PehPanda/App/AndroidStudioProject/repos/Donna_Gabriela/app/src/main/res/layout/activity_login_user.xml" value="0.16767983789260385" />
+        <entry key="..\:/PehPanda/App/AndroidStudioProject/repos/Donna_Gabriela/app/src/main/res/layout/activity_main.xml" value="0.16767983789260385" />
+        <entry key="..\:/PehPanda/App/AndroidStudioProject/repos/Donna_Gabriela/app/src/main/res/layout/category_item.xml" value="0.25677083333333334" />
+        <entry key="..\:/PehPanda/App/AndroidStudioProject/repos/Donna_Gabriela/app/src/main/res/layout/custom_marker_info.xml" value="0.19114583333333332" />
+        <entry key="..\:/PehPanda/App/AndroidStudioProject/repos/Donna_Gabriela/app/src/main/res/layout/fragment_localization_recyclerview.xml" value="0.34479166666666666" />
         <entry key="..\:/Users/Andromeda/Desktop/Donna_Gabriela/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/Andromeda/source/repos/Donna_Gabriela/app/src/main/res/drawable/edt_corner.xml" value="0.294" />
         <entry key="..\:/Users/Andromeda/source/repos/Donna_Gabriela/app/src/main/res/drawable/gradient.xml" value="0.347" />
