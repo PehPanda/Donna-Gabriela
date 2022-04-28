@@ -52,7 +52,9 @@
                 android:text="@string/info_text_locate"
                 android:textColor="@color/grey_text"
                 android:textSize="14sp"
-                android:textStyle="normal"></TextView>
+                android:textStyle="normal">
+
+            </TextView>
 
         </LinearLayout>
 
@@ -74,7 +76,21 @@
             android:id="@+id/layout_locate_horizontal_scroll"
             android:layout_width="match_parent"
             android:layout_height="110dp"
-            android:orientation="horizontal"/>
+            android:orientation="horizontal">
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvCategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                </androidx.recyclerview.widget.RecyclerView>
+            </HorizontalScrollView>
+        </LinearLayout>
 
         <LinearLayout
             android:id="@+id/layout_bottom_bar"
@@ -82,9 +98,8 @@
             android:layout_height="50dp"
             android:background="@color/purple_bottom"
             android:orientation="horizontal">
-
         </LinearLayout>
 
-    </LinearLayout>
 
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
