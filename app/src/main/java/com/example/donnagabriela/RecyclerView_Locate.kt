@@ -9,8 +9,7 @@ import com.example.donnagabriela.databinding.ActivityLocalizationPageBinding
 
 class RecyclerView_Locate : Fragment(R.layout.activity_localization_page) {
 
-    private var binding: com.example.donnagabriela.databinding.ActivityLocalizationPageBinding? =
-        null
+    private var binding: ActivityLocalizationPageBinding? = null
 
     private val categoryAdapter = ATAdapter({ CategoryView(it) })
 
