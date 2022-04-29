@@ -5,5 +5,4 @@ data class Category(
     val logoUrl: String,
     val name: String,
     val color: Long
-
 )
