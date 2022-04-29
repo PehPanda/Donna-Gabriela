@@ -12,17 +12,15 @@ public class Login_User extends AppCompatActivity {
 
     Button btn_logar;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         //Hide the StatusBar and Action Bar:
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getSupportActionBar().hide();
 
         setContentView(R.layout.activity_login_user);
-
 
         Button btn_logar = (Button) findViewById(R.id.btn_logar);
 
@@ -33,10 +31,5 @@ public class Login_User extends AppCompatActivity {
                 startActivity(OpenLocalizationPage);
             }
         });
-
-
-
-
-
     }
 }
