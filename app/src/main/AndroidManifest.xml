@@ -12,9 +12,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DonnaGabriela">
         <activity
-            android:name=".teste"
-            android:exported="false" />
-        <activity
             android:name=".Localization_Page"
             android:exported="true" />
         <!--
