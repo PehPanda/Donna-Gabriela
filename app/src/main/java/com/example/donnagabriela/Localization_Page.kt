@@ -19,11 +19,7 @@ import com.google.android.gms.maps.model.LatLngBounds
 import com.google.android.gms.maps.model.MarkerOptions
 import com.google.android.material.navigation.NavigationView
 
-class Localization_Page : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
-
-    //Insert NavigationDrawer
-    private lateinit var drawer: DrawerLayout
-    private lateinit var toggle: ActionBarDrawerToggle
+class Localization_Page : AppCompatActivity() {
 
     data class Place(
         val name: String,
@@ -96,54 +92,5 @@ class Localization_Page : AppCompatActivity(), NavigationView.OnNavigationItemSe
                 googleMap.moveCamera(CameraUpdateFactory.newLatLngBounds(bounds.build(), 350))
             }
         }
-
-        //Insert NavigationDrawer:
-        val toolbar: androidx.appcompat.widget.Toolbar = findViewById(R.id.toolbar_main)
-        setSupportActionBar(toolbar)
-
-        drawer = findViewById(R.id.drawer_layout)
-
-        toggle = ActionBarDrawerToggle(
-            this,
-            drawer,
-            toolbar,
-            R.string.navigation_drawer_open,
-            R.string.navigation_drawer_close
-        )
-        drawer.addDrawerListener(toggle)
-
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        supportActionBar?.setHomeButtonEnabled(true)
-
-        val navigationView: NavigationView = findViewById(R.id.nav_view)
-        navigationView.setNavigationItemSelectedListener(this)
-
-    }
-
-    override fun onNavigationItemSelected(item: MenuItem): Boolean {
-        when (item.itemId) {
-            R.id.nav_item_one -> Toast.makeText(this, "Item1", Toast.LENGTH_SHORT).show()
-            R.id.nav_item_two -> Toast.makeText(this, "Item2", Toast.LENGTH_SHORT).show()
-            R.id.nav_item_three -> Toast.makeText(this, "Item3", Toast.LENGTH_SHORT).show()
-        }
-        drawer.closeDrawer(GravityCompat.START)
-        return true
-    }
-
-    override fun onPostCreate(savedInstanceState: Bundle?) {
-        super.onPostCreate(savedInstanceState)
-        toggle.syncState()
-    }
-
-    override fun onConfigurationChanged(newConfig: Configuration) {
-        super.onConfigurationChanged(newConfig)
-        toggle.onConfigurationChanged(newConfig)
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        if (toggle.onOptionsItemSelected(item)) {
-            return true
-        }
-        return super.onOptionsItemSelected(item)
     }
 }
