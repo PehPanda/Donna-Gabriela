@@ -87,6 +87,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="40dp"
                 android:background="@drawable/edt_corner"
+                android:drawableLeft="@drawable/ic_user"
                 android:ems="1000"
                 android:hint="@string/digite_neste_campo"
                 android:inputType="textEmailAddress"
@@ -123,12 +124,15 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="40dp"
                 android:background="@drawable/edt_corner"
+                android:drawableLeft="@drawable/ic_lock"
+                android:drawablePadding="10dp"
+                android:paddingStart="22dp"
                 android:ems="1000"
-                android:hint="@string/digite_neste_campo"
+                android:hint="Digite neste campo..."
                 android:inputType="textPassword"
                 android:textColor="@color/black_text_user"
                 android:textSize="16sp"
-                tools:ignore="Autofill" />
+                tools:ignore="Autofill,HardcodedText,TextFields" />
 
         </LinearLayout>
 

@@ -11,14 +11,14 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-    <LinearLayout
-        android:id="@+id/layout_teste"
-        android:layout_width="match_parent"
-        android:layout_height="50px"
-        android:background="@color/purple_bottom"
-        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/layout_teste"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:background="@color/purple_bottom"
+            android:orientation="vertical">
 
-    </LinearLayout>
+        </LinearLayout>
 
         <LinearLayout
             android:id="@+id/layout_info_locate"

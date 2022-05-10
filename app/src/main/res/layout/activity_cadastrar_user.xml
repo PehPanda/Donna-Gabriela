@@ -99,8 +99,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/edt_corner"
+                android:paddingStart="22dp"
+                android:drawableLeft="@drawable/ic_user"
                 android:ems="1000"
-                android:hint="@string/digite_neste_campo"
+                android:drawablePadding="10dp"
+                android:hint="Digite neste campo..."
                 android:inputType="textPersonName"
                 android:textColor="@color/black_text_user"
                 android:textSize="16sp"
@@ -129,8 +132,11 @@
                 android:id="@+id/EditPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingStart="22dp"
                 android:background="@drawable/edt_corner"
                 android:ems="1000"
+                android:drawableLeft="@drawable/ic_lock"
+                android:drawablePadding="10dp"
                 android:hint="Digite neste campo..."
                 android:inputType="textPassword"
                 android:textColor="@color/black_text_user"
@@ -162,7 +168,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/edt_corner"
-                android:ems="1000"
+                android:paddingStart="23dp"
+                android:drawableLeft="@drawable/ic_email"
+                android:drawablePadding="10dp"
                 android:hint="Ex.: mariadapenha@gmail.com"
                 android:inputType="textEmailAddress"
                 android:textColor="@color/black_text_user"
@@ -204,10 +212,17 @@
                     android:id="@+id/chip_user"
                     android:layout_width="130dp"
                     android:layout_height="60dp"
-                    android:backgroundTint="@color/background"
+                    app:chipBackgroundColor="@color/background"
+                    android:textColor="@color/white"
                     android:fontFamily="@font/open_sans_bold"
                     android:text="Usuária"
-                    android:textAlignment="center" />
+                    android:clickable="true"
+                    app:rippleColor="@color/white"
+                    android:textStyle="bold"
+                    app:chipStartPadding="20dp"
+                    app:chipIcon="@drawable/ic_user"
+                    app:chipIconTint="@color/white"
+                    android:textAlignment="gravity" />
 
 
                 <LinearLayout
@@ -221,9 +236,16 @@
                     android:id="@+id/chip_voluntario"
                     android:layout_width="130dp"
                     android:layout_height="60dp"
-                    android:backgroundTint="@color/background"
+                    android:textColor="@color/white"
+                    app:chipBackgroundColor="@color/background"
+                    android:fontFamily="@font/open_sans_bold"
                     android:text="Voluntária"
-                    android:textAlignment="center" />
+                    app:rippleColor="@color/white"
+                    app:chipStartPadding="13dp"
+                    app:chipIcon="@drawable/ic_voluntaria"
+                    app:chipIconTint="@color/white"
+                    android:textAlignment="gravity" />
+
 
                 <LinearLayout
                     android:layout_width="20dp"
