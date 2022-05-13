@@ -14,9 +14,20 @@
         <LinearLayout
             android:id="@+id/layout_teste"
             android:layout_width="match_parent"
-            android:layout_height="100px"
+            android:layout_height="110px"
             android:background="@color/purple_bottom"
             android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/a"
+                android:layout_width="80px"
+                android:layout_marginTop="17px"
+                android:layout_marginLeft="40px"
+                android:layout_height="80px"
+                android:background="@drawable/ic_baseline_menu_24"
+                android:orientation="vertical">
+
+            </LinearLayout>
 
         </LinearLayout>
 

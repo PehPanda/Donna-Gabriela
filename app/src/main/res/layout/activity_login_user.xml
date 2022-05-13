@@ -87,6 +87,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="40dp"
                 android:background="@drawable/edt_corner"
+                android:drawablePadding="10dp"
+                android:paddingStart="22dp"
                 android:drawableLeft="@drawable/ic_user"
                 android:ems="1000"
                 android:hint="@string/digite_neste_campo"
