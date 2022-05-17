@@ -1,25 +1,18 @@
 package com.example.donnagabriela
 
-import android.content.res.Configuration
 import android.os.Bundle
-import android.view.Gravity
-import android.view.MenuItem
 import android.view.WindowManager
-import android.widget.Toast
-import android.widget.Toolbar
-import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.GravityCompat
-import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.LatLngBounds
 import com.google.android.gms.maps.model.MarkerOptions
-import com.google.android.material.navigation.NavigationView
+
 
 class Localization_Page : AppCompatActivity() {
+
 
     data class Place(
         val name: String,
@@ -63,6 +56,7 @@ class Localization_Page : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
 
         //Hide the StatusBar and Action Bar:
         window.setFlags(

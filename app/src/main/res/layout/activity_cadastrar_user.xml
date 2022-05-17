@@ -224,7 +224,6 @@
                     app:chipIconTint="@color/white"
                     android:textAlignment="gravity" />
 
-
                 <LinearLayout
                     android:layout_width="18dp"
                     android:layout_height="match_parent"
