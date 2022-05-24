@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Localization_Page">
 
     <LinearLayout
@@ -14,20 +15,23 @@
         <LinearLayout
             android:id="@+id/layout_teste"
             android:layout_width="match_parent"
-            android:layout_height="110px"
+            android:layout_height="120px"
             android:background="@color/purple_bottom"
             android:orientation="vertical">
 
-            <LinearLayout
-                android:id="@+id/a"
-                android:layout_width="80px"
-                android:layout_marginTop="17px"
-                android:layout_marginLeft="40px"
-                android:layout_height="80px"
-                android:background="@drawable/ic_baseline_menu_24"
-                android:orientation="vertical">
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/menu_icon"
+                android:layout_width="150px"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="10dp"
+                android:contextClickable="true"
+                app:iconSize="30dp"
+                android:layout_height="27dp"
+                android:clickable="true"
+                app:icon="@drawable/ic_baseline_menu"
+                android:backgroundTint="@color/purple_bottom">
 
-            </LinearLayout>
+            </com.google.android.material.button.MaterialButton>
 
         </LinearLayout>
 
