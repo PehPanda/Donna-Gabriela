@@ -10,7 +10,7 @@
     <View
         android:id="@+id/view"
         android:layout_width="433dp"
-        android:layout_height="184dp"
+        android:layout_height="200dp"
         android:background="@drawable/gradient"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
