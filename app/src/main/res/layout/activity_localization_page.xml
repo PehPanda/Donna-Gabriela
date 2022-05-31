@@ -27,6 +27,7 @@
                 android:contextClickable="true"
                 app:iconSize="30dp"
                 android:layout_height="27dp"
+                android:onClick="Menu"
                 android:clickable="true"
                 app:icon="@drawable/ic_baseline_menu"
                 android:backgroundTint="@color/purple_bottom">

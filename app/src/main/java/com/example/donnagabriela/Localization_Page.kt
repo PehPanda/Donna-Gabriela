@@ -1,6 +1,8 @@
 package com.example.donnagabriela
 
+import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.gms.maps.CameraUpdateFactory
@@ -86,5 +88,14 @@ class Localization_Page : AppCompatActivity() {
                 googleMap.moveCamera(CameraUpdateFactory.newLatLngBounds(bounds.build(), 350))
             }
         }
+    }
+
+    fun Menu(view: View) {
+
+        val OpenMenuPage = Intent(
+            baseContext,
+            MenuPage::class.java
+        )
+        startActivity(OpenMenuPage)
     }
 }
