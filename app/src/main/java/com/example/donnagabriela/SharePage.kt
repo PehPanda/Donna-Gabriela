@@ -6,10 +6,10 @@ import android.view.View
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 
-class MenuPage : AppCompatActivity() {
+class SharePage : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_menu_page)
+        setContentView(R.layout.activity_share_page)
 
         //Hide the StatusBar and Action Bar:
         window.setFlags(
@@ -17,16 +17,15 @@ class MenuPage : AppCompatActivity() {
             WindowManager.LayoutParams.FLAG_FULLSCREEN
         )
         supportActionBar!!.hide()
-
     }
 
-    fun Return1(view: View?) {
+    fun Return2(view: View?) {
 
-        val ReturnPage1 = Intent(
+        val ReturnPage2 = Intent(
             baseContext,
             Localization_Page::class.java
         )
-        startActivity(ReturnPage1)
+        startActivity(ReturnPage2)
 
     }
 }

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MenuPage">
+    tools:context=".SharePage">
 
     <LinearLayout
         android:id="@+id/layout_background"
@@ -20,7 +20,7 @@
             android:orientation="horizontal">
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/return_icon1"
+                android:id="@+id/return_icon2"
                 android:layout_width="150px"
                 android:layout_height="27dp"
                 android:layout_marginLeft="3dp"
@@ -28,7 +28,7 @@
                 android:backgroundTint="@color/purple_bottom"
                 android:clickable="true"
                 android:contextClickable="true"
-                android:onClick="Return1"
+                android:onClick="Return2"
                 app:icon="@drawable/ic_return"
                 app:iconSize="30dp">
 

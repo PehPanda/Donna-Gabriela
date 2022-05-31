@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DonnaGabriela">
         <activity
+            android:name=".SharePage"
+            android:exported="false" />
+        <activity
             android:name=".MenuPage"
             android:exported="false" />
         <activity
@@ -31,7 +34,6 @@
         <activity
             android:name=".Cadastrar_User"
             android:exported="false" />
-
         <activity
             android:name=".Login_User"
             android:exported="false" />

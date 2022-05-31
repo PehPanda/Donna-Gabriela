@@ -13,11 +13,11 @@
         android:orientation="vertical">
 
         <LinearLayout
-            android:id="@+id/layout_teste"
+            android:id="@+id/Navigation_bar"
             android:layout_width="match_parent"
             android:layout_height="120px"
             android:background="@color/purple_bottom"
-            android:orientation="vertical">
+            android:orientation="horizontal">
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/menu_icon"
@@ -25,11 +25,26 @@
                 android:layout_marginLeft="3dp"
                 android:layout_marginTop="10dp"
                 android:contextClickable="true"
-                app:iconSize="30dp"
+                app:iconSize="26dp"
                 android:layout_height="27dp"
                 android:onClick="Menu"
                 android:clickable="true"
                 app:icon="@drawable/ic_baseline_menu"
+                android:backgroundTint="@color/purple_bottom">
+
+            </com.google.android.material.button.MaterialButton>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/share_icon"
+                android:layout_width="150px"
+                android:layout_marginLeft="270dp"
+                android:layout_marginTop="10dp"
+                android:contextClickable="true"
+                app:iconSize="26dp"
+                android:layout_height="27dp"
+                android:onClick="Share"
+                android:clickable="true"
+                app:icon="@drawable/ic_share"
                 android:backgroundTint="@color/purple_bottom">
 
             </com.google.android.material.button.MaterialButton>

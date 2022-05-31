@@ -98,4 +98,14 @@ class Localization_Page : AppCompatActivity() {
         )
         startActivity(OpenMenuPage)
     }
+
+    fun Share(view: View) {
+
+        val OpenSharePage = Intent(
+            baseContext,
+            SharePage::class.java
+        )
+        startActivity(OpenSharePage)
+
+    }
 }
