@@ -34,6 +34,21 @@
 
             </com.google.android.material.button.MaterialButton>
 
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/exit_icon"
+                android:layout_width="150px"
+                android:layout_height="27dp"
+                android:layout_marginLeft="270dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/purple_bottom"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:onClick="Exit"
+                app:icon="@drawable/ic_exit"
+                app:iconSize="25dp">
+
+            </com.google.android.material.button.MaterialButton>
+
         </LinearLayout>
 
     </LinearLayout>

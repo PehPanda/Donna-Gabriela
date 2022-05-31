@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.View
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.SupportMapFragment
@@ -46,12 +47,12 @@ class Localization_Page : AppCompatActivity() {
                     .title(place.name)
                     .snippet(place.address)
                     .position(place.latLng)
-                //.icon(
-                //    BitmapHelper.vectorToBitmap(this, R.drawable.ic_android_black_24dp, ContextCompat.getColor(this, R.color.purple_500))
-                //)
+                .icon(
+                    BitmapHelper.vectorToBitmap(this, R.drawable.ic_baseline_location_on_24, ContextCompat.getColor(this, R.color.locate_icon))
+                )
             )
 
-            marker?.tag = place
+            marker?.tag = place;
 
         }
     }
@@ -85,7 +86,7 @@ class Localization_Page : AppCompatActivity() {
                     bounds.include(it.latLng)
                 }
 
-                googleMap.moveCamera(CameraUpdateFactory.newLatLngBounds(bounds.build(), 350))
+                googleMap.moveCamera(CameraUpdateFactory.newLatLngBounds(bounds.build(), 300))
             }
         }
     }

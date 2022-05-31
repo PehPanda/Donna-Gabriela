@@ -15,5 +15,6 @@
     <color name="title_map">#D09DFF</color>
     <color name="termos_text">#4C4C4C</color>
     <color name="purple_bottom">#AB70E0</color>
+    <color name="locate_icon">#FFBB86FC</color>
 
 </resources>

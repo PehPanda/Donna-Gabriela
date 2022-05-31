@@ -29,4 +29,10 @@ class MenuPage : AppCompatActivity() {
         startActivity(ReturnPage1)
 
     }
+
+    fun Exit(view: View) {
+
+        finishAffinity();
+
+    }
 }

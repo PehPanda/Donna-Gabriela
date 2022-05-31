@@ -3,7 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/PehPanda/App/AndroidStudioProject/source/repos/Donna-Gabriela/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.346" />
+        <entry key="..\:/PehPanda/App/AndroidStudioProject/source/repos/Donna-Gabriela/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.346" />
+        <entry key="..\:/PehPanda/App/AndroidStudioProject/source/repos/Donna-Gabriela/app/src/main/res/drawable/ic_baseline_menu.xml" value="0.346" />
         <entry key="..\:/PehPanda/App/AndroidStudioProject/source/repos/Donna-Gabriela/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.1795" />
+        <entry key="..\:/PehPanda/App/AndroidStudioProject/source/repos/Donna-Gabriela/app/src/main/res/drawable/ic_launcher_background.xml" value="0.346" />
+        <entry key="..\:/PehPanda/App/AndroidStudioProject/source/repos/Donna-Gabriela/app/src/main/res/drawable/ic_lock.xml" value="0.346" />
+        <entry key="..\:/PehPanda/App/AndroidStudioProject/source/repos/Donna-Gabriela/app/src/main/res/drawable/ic_log_icon.xml" value="0.346" />
         <entry key="..\:/PehPanda/App/AndroidStudioProject/source/repos/Donna-Gabriela/app/src/main/res/layout/activity_cadastrar_user.xml" value="0.16767983789260385" />
         <entry key="..\:/PehPanda/App/AndroidStudioProject/source/repos/Donna-Gabriela/app/src/main/res/layout/activity_localization_page.xml" value="0.33" />
         <entry key="..\:/PehPanda/App/AndroidStudioProject/source/repos/Donna-Gabriela/app/src/main/res/layout/activity_login_user.xml" value="0.16767983789260385" />
