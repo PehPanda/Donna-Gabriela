@@ -15,7 +15,7 @@
         <LinearLayout
             android:id="@+id/Navigation_bar"
             android:layout_width="match_parent"
-            android:layout_height="120px"
+            android:layout_height="130px"
             android:background="@color/purple_bottom"
             android:orientation="horizontal">
 
@@ -98,7 +98,7 @@
                 android:id="@+id/map_fragment"
                 class="com.google.android.gms.maps.SupportMapFragment"
                 android:layout_width="match_parent"
-                android:layout_height="330dp" />
+                android:layout_height="380dp" />
 
         </LinearLayout>
 
