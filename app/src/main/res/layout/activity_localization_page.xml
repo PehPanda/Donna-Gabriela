@@ -25,7 +25,7 @@
                 android:layout_marginLeft="3dp"
                 android:layout_marginTop="10dp"
                 android:contextClickable="true"
-                app:iconSize="26dp"
+                app:iconSize="27dp"
                 android:layout_height="27dp"
                 android:onClick="Menu"
                 android:clickable="true"
@@ -77,7 +77,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="153dp"
                 android:layout_marginHorizontal="30dp"
-                android:layout_marginTop="13dp"
+                android:layout_marginTop="15dp"
                 android:fontFamily="@font/open_sans_medium"
                 android:text="@string/info_text_locate"
                 android:textColor="@color/grey_text"
@@ -92,13 +92,14 @@
             android:id="@+id/layout_map"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
             android:orientation="vertical">
 
             <androidx.fragment.app.FragmentContainerView
                 android:id="@+id/map_fragment"
                 class="com.google.android.gms.maps.SupportMapFragment"
                 android:layout_width="match_parent"
-                android:layout_height="380dp" />
+                android:layout_height="390dp" />
 
         </LinearLayout>
 
