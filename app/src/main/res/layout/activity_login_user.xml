@@ -82,7 +82,7 @@
                 tools:ignore="HardcodedText,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck" />
 
             <EditText
-                android:id="@+id/edit_email"
+                android:id="@+id/txtUser"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="40dp"
@@ -121,7 +121,7 @@
                 tools:ignore="HardcodedText,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck" />
 
             <EditText
-                android:id="@+id/edit_password"
+                android:id="@+id/txtPassword"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="40dp"
@@ -138,19 +138,34 @@
 
         </LinearLayout>
 
+
         <LinearLayout
             android:id="@+id/button_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:paddingTop="100dp"
+            android:paddingTop="30dp"
             android:paddingBottom="20dp"
             tools:ignore="UselessLeaf">
+
+            <TextView
+                android:id="@+id/txtResultado"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:fontFamily="@font/open_sans_medium"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/grey_text"
+                android:textSize="14sp"
+                tools:ignore="HardcodedText,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck" />
 
             <Button
                 android:id="@+id/btn_logar"
                 android:layout_width="190dp"
                 android:layout_height="60dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginHorizontal="100dp"
                 android:backgroundTint="@color/purple_bottom"
                 android:fontFamily="sans-serif-black"
